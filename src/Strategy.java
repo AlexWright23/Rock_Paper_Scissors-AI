@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+//interface
 
-public class Strategy {
+public interface Strategy {
+    String determineMove(String playerLastMove, int[] moveCounts);
 }
